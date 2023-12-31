@@ -92,9 +92,11 @@
             // 
             // txtPath
             // 
+            txtPath.Enabled = false;
             txtPath.Font = new Font("Arial", 12F);
             txtPath.Location = new Point(187, 5);
             txtPath.Name = "txtPath";
+            txtPath.ReadOnly = true;
             txtPath.Size = new Size(379, 26);
             txtPath.TabIndex = 5;
             // 
